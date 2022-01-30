@@ -1,0 +1,16 @@
+PODS:
+  - AlertPopup (0.1.0)
+
+DEPENDENCIES:
+  - AlertPopup (from `../`)
+
+EXTERNAL SOURCES:
+  AlertPopup:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AlertPopup: f3b22c9cc09efa78af6bb058a08e2a89e57a9cbe
+
+PODFILE CHECKSUM: 0209e1afb06d63af7ad5765b9bca2c008c2a3259
+
+COCOAPODS: 1.11.2

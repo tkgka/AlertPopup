@@ -28,12 +28,12 @@
 
 /* Begin PBXFileReference section */
 		1DC9D599F1488D5AD831B503 /* Pods-AlertPopup_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlertPopup_Example.debug.xcconfig"; path = "Target Support Files/Pods-AlertPopup_Example/Pods-AlertPopup_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1DE5A68F197AFEC68B6A0E9C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1DE5A68F197AFEC68B6A0E9C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		24F509D891D4733D5336D8AD /* Pods-AlertPopup_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlertPopup_Example.release.xcconfig"; path = "Target Support Files/Pods-AlertPopup_Example/Pods-AlertPopup_Example.release.xcconfig"; sourceTree = "<group>"; };
 		482B326E33816309E1A18C82 /* Pods-AlertPopup_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlertPopup_Tests.release.xcconfig"; path = "Target Support Files/Pods-AlertPopup_Tests/Pods-AlertPopup_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A25AA7C57DC4F9355EAEBC26 /* Pods_AlertPopup_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlertPopup_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C61EDDF86BEC73BCAB72B6 /* Pods_AlertPopup_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlertPopup_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9D8AB28F5196473B675BF9B /* AlertPopup.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AlertPopup.podspec; path = ../AlertPopup.podspec; sourceTree = "<group>"; };
+		C9D8AB28F5196473B675BF9B /* AlertPopup.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AlertPopup.podspec; path = ../AlertPopup.podspec; sourceTree = "<group>"; };
 		ED83F67820348A760038D96B /* AlertPopup_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlertPopup_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED83F67B20348A760038D96B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED83F67D20348A760038D96B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,8 +44,10 @@
 		ED83F68A20348A760038D96B /* AlertPopup_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertPopup_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED83F68E20348A760038D96B /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		ED83F69020348A760038D96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EFEC751C22226573829EB01A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EFEC751C22226573829EB01A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F930586370C3C3A60DB7E3E0 /* Pods-AlertPopup_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlertPopup_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AlertPopup_Tests/Pods-AlertPopup_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F98DF89227A51773000150DB /* PopupController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupController.swift; sourceTree = "<group>"; };
+		F98DF89327A5177D000150DB /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +78,6 @@
 				F930586370C3C3A60DB7E3E0 /* Pods-AlertPopup_Tests.debug.xcconfig */,
 				482B326E33816309E1A18C82 /* Pods-AlertPopup_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -115,6 +116,8 @@
 			children = (
 				ED83F67B20348A760038D96B /* AppDelegate.swift */,
 				ED83F67D20348A760038D96B /* ViewController.swift */,
+				F98DF89227A51773000150DB /* PopupController.swift */,
+				F98DF89327A5177D000150DB /* AlertView.swift */,
 				ED83F67F20348A760038D96B /* Assets.xcassets */,
 				ED83F68120348A760038D96B /* Main.storyboard */,
 				ED83F68420348A760038D96B /* Info.plist */,
