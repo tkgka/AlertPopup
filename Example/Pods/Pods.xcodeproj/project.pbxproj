@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		009711704EBF7D0E4A62BB3449C64F6E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		009711704EBF7D0E4A62BB3449C64F6E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		064D3D130367A7A52172711E8C6D8333 /* Pods-AlertPopup_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlertPopup_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0E8F2CDAEF44E1C581C17FE6E2ECD2A4 /* AlertPopup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AlertPopup.modulemap; sourceTree = "<group>"; };
 		15B500525ACE0AA63CDE5115D6D48A0B /* AlertPopup */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AlertPopup; path = AlertPopup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,16 +49,16 @@
 		3F01B1A2DE433657AC33FCBB161E49CD /* AlertPopup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlertPopup-dummy.m"; sourceTree = "<group>"; };
 		3F3B4F0F12AE9E30EC0B68ABB050D8C4 /* Pods-AlertPopup_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlertPopup_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		43B99D8EF3912089D2ABF79C582BDF25 /* Pods-AlertPopup_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AlertPopup_Tests"; path = Pods_AlertPopup_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		49AC1477726E5D91290C6D4DDB21D8B4 /* AlertPopup.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AlertPopup.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		49AC1477726E5D91290C6D4DDB21D8B4 /* AlertPopup.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AlertPopup.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		55E927833DBFF9D58B6BC01C83213A2F /* AlertPopup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlertPopup.debug.xcconfig; sourceTree = "<group>"; };
 		6122809929353C9C6F73E997D18C89F4 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AlertPopup/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		672B3698FAE62207B7D603D0F15928DE /* Pods-AlertPopup_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlertPopup_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		76D65683F5305601FD63FC0039D8641F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		76D65683F5305601FD63FC0039D8641F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7CF5749970CD45F7ABB6E867DC5E48AB /* Pods-AlertPopup_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlertPopup_Example-Info.plist"; sourceTree = "<group>"; };
 		80AE2CB0F7CBEC02BC9C6AD22F95CC57 /* AlertPopup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlertPopup-umbrella.h"; sourceTree = "<group>"; };
 		80EEBE2F4A16031C44BB878F5B6FD5A8 /* Pods-AlertPopup_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlertPopup_Example-dummy.m"; sourceTree = "<group>"; };
 		91B6F6F0FB415E51FEFC52DEAF9FF6D5 /* Pods-AlertPopup_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlertPopup_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B15853219BA6380CE644292D3F4F7AC4 /* AlertPopup-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AlertPopup-Info.plist"; sourceTree = "<group>"; };
 		B315F7CB86D06DA72672E7AFC6E12309 /* Pods-AlertPopup_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlertPopup_Example-umbrella.h"; sourceTree = "<group>"; };
 		C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
@@ -627,8 +627,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
