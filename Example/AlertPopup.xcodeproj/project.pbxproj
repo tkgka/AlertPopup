@@ -14,6 +14,8 @@
 		ED83F68020348A760038D96B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED83F67F20348A760038D96B /* Assets.xcassets */; };
 		ED83F68320348A760038D96B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED83F68120348A760038D96B /* Main.storyboard */; };
 		ED83F68F20348A760038D96B /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83F68E20348A760038D96B /* Tests.swift */; };
+		F98DF89627A7C659000150DB /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DF89327A5177D000150DB /* AlertView.swift */; };
+		F98DF89727A7C659000150DB /* PopupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DF89227A51773000150DB /* PopupController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,8 +95,6 @@
 		ED83F66F20348A760038D96B = {
 			isa = PBXGroup;
 			children = (
-				F98DF89227A51773000150DB /* PopupController.swift */,
-				F98DF89327A5177D000150DB /* AlertView.swift */,
 				ED83F69A20348B650038D96B /* Podspec Metadata */,
 				ED83F67A20348A760038D96B /* AlertPopup */,
 				ED83F68D20348A760038D96B /* Tests */,
@@ -116,6 +116,8 @@
 		ED83F67A20348A760038D96B /* AlertPopup */ = {
 			isa = PBXGroup;
 			children = (
+				F98DF89227A51773000150DB /* PopupController.swift */,
+				F98DF89327A5177D000150DB /* AlertView.swift */,
 				ED83F67B20348A760038D96B /* AppDelegate.swift */,
 				ED83F67D20348A760038D96B /* ViewController.swift */,
 				ED83F67F20348A760038D96B /* Assets.xcassets */,
@@ -315,8 +317,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F98DF89727A7C659000150DB /* PopupController.swift in Sources */,
 				ED83F67E20348A760038D96B /* ViewController.swift in Sources */,
 				ED83F67C20348A760038D96B /* AppDelegate.swift in Sources */,
+				F98DF89627A7C659000150DB /* AlertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

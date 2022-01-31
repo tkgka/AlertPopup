@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(macOS 10.15, *)
 public extension View {
 //    @discardableResult
     func setWindow() -> NSWindow{
@@ -40,8 +41,9 @@ public func displayAsAlert(win:NSWindow, Timer:Double){
 }
 
 
+@available(macOS 10.15, *)
 public func ShowSystemAlert(ImageName:String, AlertText:String, Timer:Double) -> NSWindow{
-    let AlertWindow= AlertView(ImageName: self.ImageName, AlertText: self.AlertText,Timer:self.Timer).setWindow()
+    let AlertWindow = AlertView(ImageName: ImageName, AlertText: AlertText,Timer:Timer).setWindow()
     displayAsAlert(win: AlertWindow, Timer: Timer)
     return AlertWindow
 }

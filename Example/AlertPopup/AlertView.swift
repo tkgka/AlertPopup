@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@available(macOS 10.14, *)
 public struct BlurView: NSViewRepresentable {
     public typealias NSViewType = NSVisualEffectView
     
@@ -26,6 +27,7 @@ public struct BlurView: NSViewRepresentable {
 }
 
 
+@available(macOS 10.15, *)
 public struct AlertView: View {
     let ImageName:String!
     let AlertText:String!
@@ -39,11 +41,13 @@ public struct AlertView: View {
         ZStack{
             BlurView()
             VStack{
-                Image(systemName: ImageName)
-                    .resizable()
-                    .frame(width: 70.0, height: 70.0)
-                    .foregroundColor(Color.white)
-                    .padding()
+                if #available(macOS 11.0, *) {
+                    Image(systemName: ImageName)
+                        .resizable()
+                        .frame(width: 70.0, height: 70.0)
+                        .foregroundColor(Color.white)
+                        .padding()
+                }
                 Text(AlertText).multilineTextAlignment(.center)
                     .font(.system(size: 15))
                     .foregroundColor(Color.white)
