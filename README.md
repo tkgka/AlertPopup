@@ -32,9 +32,9 @@ Then, use "ShowSystemAlert" function to Popup system alert
 
 **Parameters:**
 
-- `ImageName`: (MUST) assign a `Binding<Bool>` to show or dismiss alert.
-- `AlertText`: default is 2, set 0 to disable auto dismiss.
-- `Timer`: default is `true`, set `false` to disable.
+- `ImageName`: String value for image inside Alert
+- `AlertText`: String value for text inside Alert
+- `Timer`: Double value that determines when the notification disappears 
 
 
 ```swift
