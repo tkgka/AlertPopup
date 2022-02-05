@@ -7,6 +7,8 @@
 //
 
 import Cocoa
+import SwiftUI
+import AlertPopup
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
@@ -14,6 +16,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
   func applicationDidFinishLaunching(_ aNotification: Notification) {
     // Insert code here to initialize your application
+      if #available(macOS 10.15, *) {
+          DispatchQueue.main.asyncAfter(deadline: .now() + 1.5) {
+              ShowSystemAlert(ImageName:"exclamationmark.circle" , AlertText: "hello", Timer: 5, ImageColor: Color.red, FontColor: Color.blue)
+          }
+      } else {
+          // Fallback on earlier versions
+      }
       
   }
 
